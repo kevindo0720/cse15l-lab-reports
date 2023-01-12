@@ -12,6 +12,4 @@ My interests in cs include:
 2. **data science** 
 3. **anti social computing.**
 
-Here is a picture of myself:
-![Image](https://ibb.co/HdgKCBR)
 
