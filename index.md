@@ -13,5 +13,5 @@ My interests in cs include:
 3. **anti social computing.**
 
 Here is a picture of myself:
-![Image](http://url/a.png](https://ibb.co/HdgKCBR)
+![Image](https://ibb.co/HdgKCBR)
 
