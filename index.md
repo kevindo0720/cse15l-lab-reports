@@ -8,8 +8,10 @@ My hobbies include:
 
 Here is the [Link](https://www.linkedin.com/in/kevin-phuc-do-500492217/) to my linkedin.
 My interests in cs include: 
-- **AI/machine learning** 
-- **data science** 
-- **anti social computing.**
+1. **AI/machine learning** 
+2. **data science** 
+3. **anti social computing.**
 
+Here is a picture of myself:
+![Image](http://url/a.png](https://ibb.co/HdgKCBR)
 
