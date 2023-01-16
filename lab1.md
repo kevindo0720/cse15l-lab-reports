@@ -43,9 +43,24 @@ Go ahead and enter your the password you just changed your account to. In the tu
 
 If you are able to log in successfully, your terminal should look somewhat like this: 
 
+![image](pre_commands.png)
+
+Now you are ready to try out some commands!
+
+# 3) RUNNING COMMANDS
+
+This step is where you can put some of the commands that you learned during lecture into practice. Some examples are: `cd`, `ls`, `mkdir`, and `cp`
+
+Here is a screeshot of the comamnds that I entered to the terminal:
+
 ![image](successful.png)
 
-Now you are ready for trying out some commands!
+I created a new directory called CSE15L using  `mkdir`. I then used pwd to print out the current directory after I `cd ` into CSE15L. I then used `ls ` to print all all directories but it prints nothing because there is nothing in CSE15L, but then, when I used `cd ..` to move out into the parent directory and used `ls ` there, 2 directories printed out as expected.
+
+Sometimes, when you are trying to `cd` into a path/directory, you will see an error message just because that path/directory doesn't exist within the current path/directory.
+ 
+
+
 
 
 
