@@ -9,4 +9,4 @@ First, you need to install VSCode, a very easy to use integrated development env
 After downloading and opening VSCode, you need to access exisitng files/folders or createing new ones. Since I already downloaded VSCode for a class 
 last quarter, I did not need to reinstall it. Here is a screenshot of what my VSCode looks like when I open it:
 
-![image](https://ibb.co/K2xZyqD)
+![image](VSCode)
