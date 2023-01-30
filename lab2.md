@@ -45,6 +45,9 @@ class StringServer {
     }
 }
 
+There are two parts to my code: Handler Class and StringServer class. 
+
+The StringServer class' main point is to set the port number that should be entered in when the class is called in the terminal, and launch a webserver with the port number. For instance, when we run java NumberServer 4000, the program starts a web server at port 4000 that the local host connects to.
 
 
 
