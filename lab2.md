@@ -86,7 +86,7 @@ public class ArrayTests {
 ```
 
 
-This Junit test implementation shows the same program from above, but now the input for the test is not inducing any failure (this example was provided by the TA/tutor): 
+This Junit test implementation shows the same program from above, but now the input for the test is not inducing any failure (this example was provided by the TAs/tutors): 
 
 ```
 import static org.junit.Assert.*;
@@ -110,9 +110,32 @@ public class ArrayTests {
 When running the two tests above in one, the one that fails will produce the following output:
 ![image](failure.png)
 
-In order to pass the test case that fails, I changed up the code to account for the error. Below are 2 snippets of code: before vs after. 
+In order to pass the test case that fails, I changed up the code to account for the error. Below are 2 snippets of code: before vs after. The before code was provided by the CSE 15L TAs/tutors.
 
 ***BEFORE:***
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+***After***
+```
+ static void reverseInPlace(int[] arr) {
+    int [] tempArr = new int [arr.length];
+    for (int i = 0; i < arr.length; i++){
+      tempArr[i] = arr[arr.length - i - 1];
+    }
+    for(int i = 0; i < arr.length; i++) {
+      arr[i] = tempArr[i];
+    }
+
+  }
+```
+To account for the bug, I made a temporary array and copy everything in reverse order from original array to temp array and after that, re update the original array. In the original code, the for loop makes it so that the indices overlap and does not produce our desired result.
+
 
 
 
