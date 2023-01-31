@@ -136,6 +136,8 @@ In order to pass the test case that fails, I changed up the code to account for 
 ```
 To account for the bug, I made a temporary array and copy everything in reverse order from original array to temp array and after that, re update the original array. In the original code, the for loop makes it so that the indices overlap and does not produce our desired result.
 
+# PART 3
+Through the labs of week 2 and week 3, I learned how to deploy a website that connects to my computer using URLHandler. Before I did not know that I can create a website of my own from my computer, and that I have to use some kind of external services for that.
 
 
 
