@@ -106,7 +106,7 @@ public class ArrayTests {
   }
 }
 ```
-When running the two tests above in one, the one that fails will produce the following output:
+When running the two tests above, the one that fails will produce the following output:
 ![image](failure.png)
 
 In order to pass the test case that fails, I changed up the code to account for the error. Below are 2 snippets of code: before vs after. The before code was provided by the CSE 15L TAs/tutors.
