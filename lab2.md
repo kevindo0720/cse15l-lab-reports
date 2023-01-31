@@ -1,7 +1,6 @@
 # LAB REPORT 2
 
-In this report, I will be showing how I implemented a web server called StringServer--which tracks String added by incoming requests and prints them onto 
-the front page of the web server--and my analysis of a buggy program using Junit testing.
+In this report, I will be reporting on how I implemented a web server called StringServer--which tracks String added by incoming requests and prints them onto the front page of the web server--and my analysis of a buggy program using Junit testing.
 
 # PART 1 - WEB SERVER
  
