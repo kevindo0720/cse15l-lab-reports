@@ -1,11 +1,11 @@
-# LAB 2 REPORT
+# LAB REPORT 2
 
 In this report, I will be showing how I implemented a web server called StringServer--which tracks String added by incoming requests and prints them onto 
 the front page of the web server--and my analysis of a buggy program using Junit testing.
 
-# PART 1 
+# PART 1 - WEB SERVER
  
-Below is my code for the StringServer web server 
+Below is my code for StringServer
 
 ```import java.io.IOException;
 import java.net.URI;
@@ -61,7 +61,7 @@ In this example, I created a web server with port 4002. In the terminal, when I 
 Similarly, in this instance, I created a web server with port 5002. Running the `javac Server.java StringServer.java` and `java StringServer 5002` commands in the terminal in order, the main method in the StrinServer class was called, which in turn launches a new webserver that connects to the local host with port 5002. When I added the string "Happy" using `add-message` the handleRequest method was called again, allowing the string `returnString` to append "Happy."
 
 
-# PART 2
+# PART 2 - BUGS 
 This Junit test implementation shows an example of a failure inducing input for the buggy program 
 
 ```
@@ -134,11 +134,12 @@ In order to pass the test case that fails, I changed up the code to account for 
 
   }
 ```
-To account for the bug, I made a temporary array and copy everything in reverse order from original array to temp array and after that, re update the original array. In the original code, the for loop makes it so that the indices overlap and does not produce our desired result.
+To account for the bug, I made a temporary array and copy everything in reverse order from original array to temp array and after that, re update the original array. In the original code, the for loop makes it so that after the half way mark, it begins using the values that were just reversed to switch elements.
 
-# PART 3
-Through the labs of week 2 and week 3, I learned how to deploy a website that connects to my computer using URLHandler. Before I did not know that I can create a website of my own from my computer, and that I have to use some kind of external services for that.
 
+# PART 3 - REFLECTION
+
+Through the labs of week 2 and week 3, I learned how to deploy a website that connects to my computer using URLHandler. I also learned the terminologies that relate to this exerce, such as `port` or `local host`. Before, I did not know that I can create a website of my own from my computer, and that I have to use some kind of external services for that. The past two labs have taught me very useful concepts and skills that I will probably need in my future career in the tech industry.  
 
 
 
