@@ -48,14 +48,14 @@ class StringServer {
 
 There are two parts to my code: Handler Class and StringServer class:
 
-The Handler class has two if statement. If the url only has "/" then it accesses the path of the URL and return the current string. Otherwise, it would execute the else statement. This else clause states that if there is an `/add-message` command in the path, then the program should concatenate the string behind the "=" sign to the current string. Note that each string will be printed on its own line when on the web server.
+The Handler class has two if statements. If the url only has "/", then it accesses the path of the URL and returns the current string. Otherwise, it  executes the else statement. This else clause states that if there is an `/add-message` command in the path, then the program should concatenate the string behind the "=" sign to the current string. Note that each string will be printed on its own line on the web server.
 
 The StringServer class' main point is to set the port number that should be entered in when the class is called in the terminal, and launch a webserver with the port number. For instance, when we run java NumberServer 4000, the program starts a web server at port 4000 that the local host connects to.
 
 Here are my examples of using `/add-message`:
 
 ![image](use1.png)
-In this example, I created a web server with port 4002. In the terminal, when I compile using `javac Server.java StringServer.java` and run immediately after using `java StringServer 4002`, the main method in the StringServer class was called and a web server that is connected to the local host with port 4002 was created. For this exmaple, when I used `/add-message,` the else clause of the if statement of the handleRequest method in the Handler class was called, causing the String "Today is a wet day" after `/add-message`, to be added into the String 'returnString'. 
+In this example, I created a web server with port 4002. In the terminal, when I compile using `javac Server.java StringServer.java` and run using `java StringServer 4002`, the main method in the StringServer class was called and a web server that is connected to the local host with port 4002 was created. For this exmaple, when I used `/add-message,` the else clause of the if statement of the handleRequest method in the Handler class was called, causing the String "Today is a wet day" after `/add-message`, to be added into the String 'returnString'. 
 
 ![image](use2.png)
 Similarly, in this instance, I created a web server with port 5002. Running the `javac Server.java StringServer.java` and `java StringServer 5002` commands in the terminal in order, the main method in the StrinServer class was called, which in turn launches a new webserver that connects to the local host with port 5002. When I added the string "Happy" using `add-message` the handleRequest method was called again, allowing the string `returnString` to append "Happy."
@@ -138,12 +138,6 @@ To account for the bug, I made a temporary array and copy everything in reverse 
 
 # PART 3
 Through the labs of week 2 and week 3, I learned how to deploy a website that connects to my computer using URLHandler. Before I did not know that I can create a website of my own from my computer, and that I have to use some kind of external services for that.
-
-
-
-
-
-
 
 
 
