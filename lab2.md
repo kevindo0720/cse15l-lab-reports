@@ -3,7 +3,7 @@
 In this report, I will be showing how I implemented a web server called StringServer--which tracks String added by incoming requests and prints them onto 
 the front page of the web server--and my analysis of a buggy program using Junit testing.
 
-# PART 1
+# PART 1 
  
 Below is my code for the StringServer web server 
 
@@ -58,7 +58,67 @@ Here are my examples of using `/add-message`:
 In this example, I created a web server with port 4002. In the terminal, when I compile using `javac Server.java StringServer.java` and run immediately after using `java StringServer 4002`, the main method in the StringServer class was called and a web server that is connected to the local host with port 4002 was created. For this exmaple, when I used `/add-message,` the else clause of the if statement of the handleRequest method in the Handler class was called, causing the String "Today is a wet day" after `/add-message`, to be added into the String 'returnString'. 
 
 ![image](use2.png)
-Similarly, in this instance, I created a web server with port 5000. Running the `javac Server.java StringServer.java` and `java StringServer 500` commands in the terminal in order, the main method in the StrinServer class was called, which in turn launches a new webserver that connects to the local host with port 5000. When I added the string "Happy" using `add-message` the handleRequest method was called again, allowing the string `returnString` to append "Happy"
+Similarly, in this instance, I created a web server with port 5002. Running the `javac Server.java StringServer.java` and `java StringServer 5002` commands in the terminal in order, the main method in the StrinServer class was called, which in turn launches a new webserver that connects to the local host with port 5002. When I added the string "Happy" using `add-message` the handleRequest method was called again, allowing the string `returnString` to append "Happy."
+
+
+# PART 2
+This Junit test implementation shows an example of a failure inducing input for the buggy program 
+
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    int [] input2 = {3,2,1};
+
+ 
+    ArrayExamples.reverseInPlace(input1);
+    ArrayExamples.reverseInPlace(input2);
+
+    //failed
+    assertArrayEquals(new int[]{1,2,3}, input2);
+
+	}
+}
+```
+
+
+This Junit test implementation shows the same program from above, but now the input for the test is not inducing any failure (this example was provided by the TA/tutor): 
+
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    int [] input2 = {3,2,1};
+
+ 
+    ArrayExamples.reverseInPlace(input1);
+    ArrayExamples.reverseInPlace(input2);
+
+    //passed
+    assertArrayEquals(new int[]{ 3 }, input1);
+  }
+}
+```
+When running the two tests above in one, the one that fails will produce the following output:
+![image](failure.png)
+
+In order to pass the test case that fails, I changed up the code to account for the error. Below are 2 snippets of code: before vs after. 
+
+***BEFORE:***
+
+
+
+
+
+
 
 
 
