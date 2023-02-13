@@ -244,7 +244,7 @@ The idea that freedom exists only under law is often understood as a Central Eur
 ```
 
 **Example 2**
-Here, I printed out the first 30 lines in chapter 5 of Fletcher:
+Here, I printed out the first 20 lines in chapter 5 of Fletcher:
 ```
 kevindo@Kevins-MacBook-Pro-2 Fletcher % head -n 20 ch5.txt 
 
