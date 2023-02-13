@@ -12,7 +12,9 @@ Here is an image of my usage of [chatGPT created by openAI](https://openai.com/b
 less is a command that shows a file's contents one screen at a time. When you run `less` on a file, you will enter a screen with juse the content of that file. To exit the current screen, you have to press `q`
 
 # 1) CAT
-`cat` is a command line that immediately prints out the content inside a file. It is very convenient as it prints the content our directly into the current working terminal.
+`cat` is a command line that immediately prints out the content inside a file. It is very convenient as it prints the content our directly into the current working terminal. 
+
+In example 1, I cd into the Fletcher's directory in the non-ficton folder and use cat to print out the entirety of chapter 1.
 
 ***Example 1:**
 ```
@@ -112,6 +114,7 @@ These words are, in fact, better known in the United States than the preamble to
 Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal. Now we are engaged in a great Civil War, testing whether that nation or any nation so conceived and so dedicated can long endure. We are met on a great battlefield of that war. We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this. But in a larger sense, we cannot dedicate—we cannot consecrate—we cannot hallow this ground. The brave men, living and dead, who struggled here have consecrated it far above our poor power to add or detract. The world will little note nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain, that this nation, under God, shall have a new birth of freedom, and that government of the people, by the people, for the people shall not perish from the earth.
 ```
 
+Similarly, in example 2, I used cat to print out chapter 5 in its entirety.
 ***Example 2:***
 ```
 kevindo@Kevins-MacBook-Pro-2 Fletcher % cat ch5.txt
