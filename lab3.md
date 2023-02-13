@@ -16,7 +16,7 @@ less is a command that shows a file's contents one screen at a time. When you ru
 
 In example 1, I cd into the Fletcher's directory in the non-ficton folder and use cat to print out the entirety of chapter 1.
 
-***Example 1:**
+**Example 1:**
 ```
 kevindo@Kevins-MacBook-Pro-2 Fletcher % cat ch1.txt
 
@@ -115,7 +115,8 @@ Four score and seven years ago our fathers brought forth on this continent a new
 ```
 
 Similarly, in example 2, I used cat to print out chapter 5 in its entirety.
-***Example 2:***
+
+**Example 2:**
 ```
 kevindo@Kevins-MacBook-Pro-2 Fletcher % cat ch5.txt
 
