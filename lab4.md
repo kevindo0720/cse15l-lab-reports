@@ -31,7 +31,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 ```
 It showed errors as expected:
-![image](gitfails.png)
+![image](testfails.png)
 
 
 
@@ -50,7 +50,7 @@ The highlighted parts are where I made changes
 For this part, I just pressed the key `<up><up><up>` to re run the compiler. I then pressed `<up><up><up>` again to run the JUnit test on ListExamplesTests.java 
 
 The picture below shows my tests passing:
-![image](gitfails.png)
+![image](testpass.png)
 
 
 
@@ -60,7 +60,7 @@ The picture below shows my tests passing:
  I pressed in order : `<esc><:><wq><enter>` to exit the screen. 
  
  The picture below shows what the screen that popped up looks like and what I wrote for my commit message:
- ![image](editedfile.png)
+ ![image](gitcommit.png)
  
  # PART 7 - add
  
