@@ -59,7 +59,7 @@ The picture below shows my tests passing:
  In order to commit I had to run `git commit ListExamples.java,` then a screen will pop up where I have to write a commit message. After finish writing, 
  I pressed in order : `<esc><:><wq><enter>` to exit the screen. 
  
- The picture below shows what the screen that popped up looks like and what I wrote for my commit message:
+ The picture below shows what the screen that popped up looks like:
  ![image](gitcommit.png)
  
  # PART 7 - add
