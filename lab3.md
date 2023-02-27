@@ -260,7 +260,7 @@ Allow me to take the Twenty-First Amendment out of order. After a decade of Proh
 **Example 2**
 Similarly, here, I used `less -s` command to merge multiple blank lines into 1 in chapter 2 of berk:
 ```
-kevindo@Kevins-MacBook-Pro-2 Fletcher % less -s 20 ch5.txt 
+kevindo@Kevins-MacBook-Pro-2 Berk % less -s ch2.txt 
 
 
 
