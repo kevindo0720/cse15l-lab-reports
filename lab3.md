@@ -13,7 +13,7 @@ less is a command that shows a file's contents one screen at a time. When you ru
 # 1) Less -E
 `less -E` is a command line that exits the less screen when reaching the end of the screen
 
-In example 1, I cd into the Fletcher's directory in the non-ficton folder and use "Less -E on chapter 1
+In example 1, I cd into the Fletcher's directory in the non-ficton folder and use `Less -E` on chapter 1
 
 **Example 1:**
 ```
