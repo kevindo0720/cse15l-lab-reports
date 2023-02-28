@@ -69,7 +69,7 @@ The picture below shows what the screen that popped up looks like:
 
 
 
-# part 8 - push
+# PART 8 - push
 After adding and committing, I pushed everything to my github account using: `git push`. After I did that, it asked for my GITHUB account and also password. I manually put them in and succesfully pushed everything.
 
 ![image](gitpush.png)
