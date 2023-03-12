@@ -7,7 +7,7 @@ Through the use of [chatGPT created by openAI](https://openai.com/blog/chatgpt),
 
 ![chatgptgrep](chatgptgrep.png)
 
-# GENERAL DESCRIPTION OF LESS AND HOW IT WORKS
+# GENERAL DESCRIPTION OF GREP AND HOW IT WORKS
 grep is a command that searches for a given pattern in a single file or multiple files.
 
 # 1) grep -r
