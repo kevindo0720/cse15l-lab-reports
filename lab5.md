@@ -1,6 +1,6 @@
 # LAB 5 REPORT
 
-In this lab, I will redo lab report 3 but with a differnet command. In lab report 3, I show you the alternative terminal commands to `less`, here, I will 
+In this lab, I will redo lab report 3 but with a differnet command. In lab report 3, I will show you the alternative terminal commands to `less`, here, I will 
 show the alternative commands to "grep".
 
 Through the use of [chatGPT created by openAI](https://openai.com/blog/chatgpt), I was able to obtain other terminal command alternatives to `grep`, including: `grep -r`, `grep -i`, `grep -v`, and `grep -c`.
