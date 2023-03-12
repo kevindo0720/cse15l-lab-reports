@@ -5,7 +5,7 @@ show the alternative commands to `grep`.
 
 Through the use of [chatGPT created by openAI](https://openai.com/blog/chatgpt), I was able to obtain other terminal command alternatives to `grep`, including: `grep -r`, `grep -i`, `grep -v`, and `grep -c`.
 
-![chatgptgrep](chatgptgrep.jpg)
+![chatgptgrep](chatgptgrep.png)
 
 # GENERAL DESCRIPTION OF LESS AND HOW IT WORKS
 grep is a command that searches for a given pattern in a single file or multiple files.
